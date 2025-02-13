@@ -13,7 +13,7 @@ namespace very_important_code_goes_here
             int answer;
             
             start:  //оказывается можно ставить метки просто так. приколь конечно
-                Console.WriteLine($"Введите число. Номер попытки {counter}" );
+                Console.WriteLine($"Введите число. Номер попытки {counter + 1}" );
                 if (!int.TryParse(Console.ReadLine(), out answer)) { goto start; } //есть проверка на дурачка
                 counter++;
 
