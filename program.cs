@@ -1,6 +1,4 @@
-using System.Security.Cryptography;
-
-namespace ConsoleApp3
+namespace very_important_code_goes_here
 {
     internal class Program
     {
