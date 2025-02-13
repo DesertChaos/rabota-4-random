@@ -2,7 +2,7 @@ namespace very_important_code_goes_here
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Попробуйте угадать число от 1 до 100.");
             
