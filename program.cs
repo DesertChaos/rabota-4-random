@@ -31,7 +31,6 @@ namespace very_important_code_goes_here
                     Console.WriteLine("Неверно.");                   
                     goto start;
             }
-
         }
     }
 }
