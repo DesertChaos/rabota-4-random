@@ -1,2 +1,3 @@
 # rabota-4-random
-read readme
+
+https://github.com/DesertChaos/rabota-4-random/blob/main/image.PNG
