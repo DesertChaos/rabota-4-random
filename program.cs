@@ -10,10 +10,11 @@ namespace very_important_code_goes_here
             int goal = rnd.Next(1, 101);
             Console.WriteLine($"По секрету, это число - {goal}");
             int counter = 0; //счетчик попыток пользователя
-
+            int answer;
+            
             start:  //оказывается можно ставить метки просто так. приколь конечно
-                Console.WriteLine("Введите число");
-                int answer = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine($"Введите число. Номер попытки {counter}" );
+                if (!int.TryParse(Console.ReadLine(), out answer)) { goto start; } //есть проверка на дурачка
                 counter++;
 
             switch (answer)
